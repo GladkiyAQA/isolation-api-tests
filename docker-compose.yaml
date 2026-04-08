@@ -13,6 +13,13 @@ x-python-service: &python-service
   entrypoint: [ "python", "-u", "-m" ]
 
 services:
+  # mock-service
+  http-mock:
+    <<: *python-service
+    ports: [ "8003:8003" ]
+    command: "tests.mock.http.server"
+    container_name: "http-mock"
+
   # kafka
   kafka:
     image: confluentinc/cp-kafka:7.6.0
