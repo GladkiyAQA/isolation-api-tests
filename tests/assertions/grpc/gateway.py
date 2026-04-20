@@ -69,7 +69,7 @@ def assert_get_account_details_response(
 
 
 @allure.step("Check gRPC user with active credit account")
-def assert_user_with_active_credit_account(
+def assert_get_user_details_response_user_with_active_credit_card_account(
     actual: GetUserDetailsResponse,
 ) -> None:
     logger.info("Check gRPC user with active credit account")
