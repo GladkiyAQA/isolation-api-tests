@@ -168,8 +168,8 @@ def assert_get_account_details_response_user_with_active_debit_card_account(
                 id="99999999-aaaa-4bbb-8ccc-000000000001",
                 type=AccountTestType.DEBIT_CARD,
                 status=AccountTestStatus.ACTIVE,
-                user_id="3fa85f64-5717-4562-b3fc-2c963f66afa6",
-                balance=-15230.75,
+                user_id="8bb0e7c2-1b6a-4e5d-9f1a-1b3f2a7c9e21",
+                balance=15230.75,
             ),
             cards=[
                 CardTestSchema(
