@@ -1,12 +1,12 @@
 import allure
 import grpc
 
-from contracts.services.gateway.gateway_service_pb2_grpc import GatewayServiceStub
-from contracts.services.gateway.rpc_get_account_details_pb2 import (
+from protos.gen.contracts.services.gateway.gateway_service_pb2_grpc import GatewayServiceStub
+from protos.gen.contracts.services.gateway.rpc_get_account_details_pb2 import (
     GetAccountDetailsRequest,
     GetAccountDetailsResponse,
 )
-from contracts.services.gateway.rpc_get_user_details_pb2 import (
+from protos.gen.contracts.services.gateway.rpc_get_user_details_pb2 import (
     GetUserDetailsRequest,
     GetUserDetailsResponse,
 )
